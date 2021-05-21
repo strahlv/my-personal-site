@@ -95,9 +95,35 @@ p {
   bottom: -4px;
 }
 
+.polaroid-container {
+    position: relative;
+    padding: 64px 0;
+}
+
 .profile-img {
-  border-radius: 100%;
   width: 256px;
+  transform: rotate(-5deg);
+}
+
+.polaroid-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 264px;
+    height: 264px;
+    margin-top: -132px; /* Half the height */
+    margin-left: -132px; /* Half the width */
+    transform: rotate(-5deg);
+}
+
+.polaroid-back {
+    background-color: #b9bffb;
+    transform: rotate(-15deg);
+}
+
+.polaroid-back-shadow {
+    box-shadow: -5px 10px #f5a097;
+    transform: rotate(-15deg);
 }
 
 .skills {
