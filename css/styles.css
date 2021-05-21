@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "LycheeSoda";
+  src: url("../fonts/LycheeSoda.ttf");
+}
+
+a {
+  color: #143464;
+}
+
+a:visited {
+    color: #e86a73;
+}
+
+a:hover {
+  color: white;
+}
+
+body {
+  color: #143464;
+  font-family: "Merriweather", serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: "LycheeSoda", "Sacramento", cursive;
+  font-size: 5rem;
+  margin: 50 auto 0 auto;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  padding: 32px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border-color: #f5a097;
+  border-style: dotted none none none;
+  border-width: 8px;
+  margin: 64px auto;
+  width: 64px;
+}
+
+p {
+  margin: 0;
+}
+
+.top-container {
+  background-color: #ffd541;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  padding: 32px 0 32px 0;
+}
+
+.bottom-container {
+  background-color: #ffd541;
+  padding: 64px 0 64px 0;
+  line-height: 5;
+}
+
+.footer-link {
+  font-family: "Montserrat", sans-serif;
+  margin: 32px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.sun {
+  position: absolute;
+  bottom: 256px;
+  left: 52%;
+}
+
+.mountain {
+  position: relative;
+  bottom: -4px;
+}
+
+.profile-img {
+  border-radius: 100%;
+  width: 256px;
+}
+
+.skills {
+  background-color: #ffd541;
+  padding-bottom: 100px;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  width: 50%;
+  max-width: 640px;
+}
+
+.art-skill-title {
+  text-align: right;
+}
+
+.skill-img {
+  background-color: white;
+  border-radius: 100%;
+}
+
+.code-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.art-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background-color: #143464;
+  border-radius: 8px;
+  color: white;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 32px;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #ffd541;
+  color: #143464;
+}
+
+.tiling {
+  background-image: url("../images/tile.png");
+  background-repeat: repeat-x;
+  height: 32px;
+}
+
+.tiling2 {
+  background-image: url("../images/tile2.png");
+  background-repeat: repeat-x;
+  height: 32px;
+}
+
+.copyright {
+    font-size: 0.75em;
+}
